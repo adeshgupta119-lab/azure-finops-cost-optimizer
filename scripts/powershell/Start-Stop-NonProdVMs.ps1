@@ -26,3 +26,4 @@ foreach ($vm in $vms) {
 }
 
 Write-Host "[✓] VM $Action automation completed." -ForegroundColor Green
+

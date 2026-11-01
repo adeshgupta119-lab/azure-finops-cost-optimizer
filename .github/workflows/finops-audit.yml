@@ -12,3 +12,4 @@ jobs:
       - uses: actions/checkout@v4
       - name: FinOps Check
         run: echo "FinOps audit completed."
+

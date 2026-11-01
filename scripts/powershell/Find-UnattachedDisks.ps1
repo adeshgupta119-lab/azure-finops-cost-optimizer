@@ -37,3 +37,4 @@ if ($unattachedDisks.Count -gt 0) {
 } else {
     Write-Host "[✓] Zero unattached disks detected." -ForegroundColor Green
 }
+
