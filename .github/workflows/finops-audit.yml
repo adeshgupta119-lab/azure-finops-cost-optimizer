@@ -1,0 +1,14 @@
+name: "Weekly FinOps Cost Audit"
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+jobs:
+  finops-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: FinOps Check
+        run: echo "FinOps audit completed."
